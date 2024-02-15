@@ -22,7 +22,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <h3>academind-react-typescript-101</h3>
+      <h3 className="">Academind React Typescript 101</h3>
       <NewTodo onAddTodo={todoAddHandler} />
       <TodoList items={todos} onDeleteTodo={todoDeleteHandler} />
     </div>
